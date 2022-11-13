@@ -1,0 +1,58 @@
+/* header styling */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(162, 109, 211);
+    padding: 20px 50px;
+    align-items: center;
+}
+.header a {
+    font-size: 40px;
+    font-weight: 800;
+}
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.pages {
+    margin-right: 30px;
+}
+/* burger styling */
+.burger {position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(162, 109, 211);
+    border: 3px solid rgb(249, 248, 250);
+    right: 50px;
+    border-radius: 25%;
+    display: none;
+}
+.line {
+    width: 80%;
+    height: 3px;
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+}
+.first {
+    top: 30%;
+}
+.third {
+    top: 70%;
+}
+.openedBurger .first {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);      
+}
+.openedBurger .third {
+    top: 50%;
+    transform: translate(-50%, -50%) rotate(-45deg);      
+}
+.openedBurger .second {
+    display: none;
+}
