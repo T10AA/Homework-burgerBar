@@ -6,3 +6,9 @@
         display: block;
     }
 }
+@media (max-width: 380px){
+    .btnAdd {
+        display: block;
+        margin: 5px auto;
+    }
+}
